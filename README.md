@@ -1,9 +1,12 @@
 ~~~
 Ex-9-IMPLEMENTATION-OF-THE-BACK-END-OF-THE-COMPILER-
 IMPLEMENTATION OF THE BACK END OF THE COMPILER 
- Aim :
+
+Aim :
 To write a program to implement the back end of the compiler.
+
  ALGORITHM
+
 1. Start the program.
 2. Get the three variables from statements and stored in the text file k.txt.
 3. Compile the program and give the path of the source file.
@@ -12,6 +15,7 @@ To write a program to implement the back end of the compiler.
 6. Stop the program.
 
  PROGRAM
+
  Program: program.c file
 include <stdio.h>
 include <ctype.h>
@@ -28,7 +32,8 @@ int main() {
         printf("\nError in opening the file\n");
         return 1;
     }
-    printf("\nStatement\tTarget Code\n\n");
+
+ printf("\nStatement\tTarget Code\n\n");
     while (fscanf(fp, "%s", ip) != EOF) {
         printf("%s\tMOV %c,R%d SUB ", ip, ip[i + k], j);
 
