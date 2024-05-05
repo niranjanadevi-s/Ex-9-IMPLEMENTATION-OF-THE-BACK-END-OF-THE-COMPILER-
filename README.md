@@ -61,7 +61,8 @@ int main() {
 ~~~
 
 # OUTPUT
-![image](https://github.com/niranjanadevi-s/Ex-9-IMPLEMENTATION-OF-THE-BACK-END-OF-THE-COMPILER-/assets/141748873/c1020b33-753f-4cad-85b9-54341e40119e)
+![image](https://github.com/niranjanadevi-s/Ex-9-IMPLEMENTATION-OF-THE-BACK-END-OF-THE-COMPILER-/assets/141748873/1d97163f-7750-4d4a-9303-9d5f51cb2b91)
+
 
 # Result
 The back end of the compiler is implemented successfully, and the output is verified.
